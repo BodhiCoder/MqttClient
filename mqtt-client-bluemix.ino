@@ -83,11 +83,15 @@ void setup() {
 }
 
 int read_accel(){
-  //read accel from ADLX345
+  // dummy accel
   int max=21; 
   int min=1;
   int randNum = rand()%(max-min + 1) + min; 
   return randNum;     
+}
+
+int read_accel_from_ADL() {
+  //  read accel from ADLX345
 }
 
 void loop() {
